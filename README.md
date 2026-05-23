@@ -411,7 +411,7 @@ Analyze email content for phishing signals.
 
 ## 👨‍💻 Authors
 
-**Aman Nawab** — B.Tech Final Year (Project Owner)
+**Mohd Esa** — B.Tech Final Year (Project Owner)
 
 - Fixed blacklist detection pipeline
 - Added dataset-based Suspicious URL detection
