@@ -1,0 +1,15 @@
+# Environment variables — NEVER push these
+backend/.env
+
+# Node modules — too large, reinstalled via npm install
+backend/node_modules/
+dashboard/node_modules/
+extension/popup/node_modules/
+
+# React build — regenerated via npm run build
+dashboard/build/
+extension/popup/build/
+
+# Python cache
+ml-service/__pycache__/
+ml-service/*.pyc
