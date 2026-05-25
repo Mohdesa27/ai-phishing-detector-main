@@ -1,7 +1,7 @@
 setuptools
 fastapi==0.110.0
 uvicorn==0.29.0
-pandas==2.0.3
+pandas==2.2.2
 numpy==1.24.3
 scikit-learn==1.3.0
 joblib==1.3.2
