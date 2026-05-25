@@ -384,7 +384,7 @@
 
 import { useState, useEffect } from "react";
  
-const BACKEND_URL = "http://localhost:5000/api/check";
+const BACKEND_URL = "https://ai-phishing-detector-main.onrender.com/api/check";
  
 function App() {
   const [url, setUrl] = useState("");

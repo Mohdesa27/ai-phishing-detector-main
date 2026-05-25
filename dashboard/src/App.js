@@ -419,7 +419,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 
-const BACKEND_URL = "http://localhost:5000";
+const BACKEND_URL = "https://ai-phishing-detector-main.onrender.com";
 
 function App() {
   const [url, setUrl] = useState("");

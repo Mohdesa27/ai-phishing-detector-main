@@ -12,7 +12,7 @@ const { loadBlacklist } = require("./services/blacklistService");
 const app = express();
 
 // Middleware
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: "https://ai-phishing-detector-main.vercel.app" }));
 app.use(express.json());
 
 // Routes
