@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "AI Phishing Detector",
+  "version": "1.0.0",
+  "description": "Detects phishing and suspicious websites in real-time",
+  "permissions": [
+    "tabs",
+    "notifications",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/build/index.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
